@@ -1,0 +1,36 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="row1">
+      <ion-col class="col1">
+        <ion-row class="col1-row1 ">
+          <ion-col class="ion-label">
+            <ion-label>
+              Verification
+            </ion-label>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="row2">
+          <ion-col class="row2-col1 ">
+            <ion-label>
+              Please type the verification code sent to Web Browser
+            </ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row class="row3">
+          <ion-col class="row3-col1">
+            <ng-otp-input class="ng-input" (onInputChange)="onOtpChange($event)" [config]="{length:4 }"></ng-otp-input>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="row4">
+          <ion-col class="row4-col1 ">
+            <ion-button (click)="postresponse()" class="ion-btn">
+              Verify
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

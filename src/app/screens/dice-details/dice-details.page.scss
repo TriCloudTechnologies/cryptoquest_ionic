@@ -1,0 +1,122 @@
+.solid {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+ion-grid {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+}
+ion-label {
+  color: white;
+}
+.whole-container {
+  width: 100%;
+  height: 100%;
+  background: url("../../../assets/images/background.png");
+}
+
+.whole-container-col1 {
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  background: url(../../../assets/images/background.png);
+}
+.upper-container {
+  width: 100%;
+  padding: 0%;
+  height: 40%;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: url("../../../assets/images/dicebackground.png");
+}
+.upper-container-maincol {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.first-row {
+  height: 30%;
+  width: 100%;
+  padding: 0%;
+}
+
+.first-row-col2{
+  padding-bottom: 1px;
+}
+
+.second-row{
+  height: 70%; width: 100%;
+}
+
+.back-btn {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  text-align: center;
+  padding-right: 7%;
+  padding-top: 12%;
+  padding-left: 7%;
+}
+
+.dice-logo {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.polygon-btn {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  text-align: center;
+  padding-right: 8%;
+  padding-top: 10%;
+  padding-left: 7%;
+}
+
+.lower-container {
+  width: 100%;
+  height: 60%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 0%;
+  padding-top: 8%;
+
+  // background: red;
+  ion-row {
+    color: aliceblue;
+    font-size: 26px;
+    width: 100%;
+    height: 8%;
+    padding: 0%;
+  }
+}
+
+.lower-padding {
+  margin-top: 30px;
+}
+.details {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+hr {
+  border-top: 3px solid #bbb;
+}
+
+.details-align {
+  text-align: start;
+}
+
+
+.details-label-name{
+  text-align: start;  color: #BABABA;font-size: 20px;
+}
+
+.details-label {
+  text-align: start;
+  color: #bababa;
+}

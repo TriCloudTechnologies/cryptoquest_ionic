@@ -1,0 +1,168 @@
+ion-content {
+  background: url("../../../assets/images/background.png");
+  background-size: cover;
+  --background: transparent;
+  padding: 20px;
+}
+
+ion-grid {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.row1-col1 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.first-row {
+  height: 25%;
+  width: 100%;
+  padding: 0%;
+}
+.back-btn {
+  padding: 25px;
+}
+
+.quest-logo {
+  padding-top: 40px;
+  padding-left: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.second-row {
+  height: 10%;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.second-row-col2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.second-row-col2-input-col {
+  padding: 0%;
+  border-radius: 60px;
+}
+
+.second-row-col2-inputdata {
+  background: url(../../../assets/images/popupbg.png);
+  padding: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.second-row-col2-icons {
+  background: url(../../../assets/images/popupbg.png);
+  padding-left: 12px;
+  padding-top: 12px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.second-row-col2-searchicon {
+  padding-right: 10px;
+}
+
+.third-row {
+  height: 50%;
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.third-row-row1 {
+  align-items: center;
+}
+
+.loader-row1 {
+  margin: 100%;
+  height: 200px;
+}
+
+.loader-row2 {
+  width: 100%;
+  height: 95%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+.spinner {
+  text-align: center;
+  color: wheat;
+  height: 100%;
+  width: 100px;
+}
+
+.loop-col {
+  width: 100%;
+  height: 100%;
+}
+
+.nft-row1 {
+  background: url(../../../assets/images/popupbase.png);
+  border-radius: 25px;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.nft-row2 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+.nft-img {
+  padding: 4%;
+  height: 80%;
+}
+
+.nft-info {
+  padding: 0%;
+  align-items: center;
+}
+
+.nft-name {
+  justify-content: start;
+  padding-left: 12%;
+}
+
+.nft-name-label {
+  font-size: 11.5px;
+  color: black;
+}
+
+.nft-family {
+  justify-content: start;
+  padding-left: 12%;
+}
+
+.nft-family-label {
+  font-size: 14px;
+  color: rgb(102, 98, 98);
+}
+.play-btn-col {
+  padding: 0%;
+}
+.play-btn-img {
+  width: 80%;
+  height: 70%;
+}
+
+ion-img::part(image) {
+  border-radius: 10%;
+}

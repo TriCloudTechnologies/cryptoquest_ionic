@@ -1,0 +1,63 @@
+<script src="waxjs.js"></script>
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <p>Click to Login in to Wax Wallet</p>
+        <ion-button (click)="login()">Login to Wax wallet</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Sign Transactions for Wax Wallet</p>
+        <ion-button (click)="sign()">Sign </ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Click to get NFTs from Wax Wallet</p>
+        <ion-button (click)="Nft()">nfts</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p>Click to connect Phantom Wallet</p>
+        <ion-button (click)="getProvider()">Phantom Wallet</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Click to autoconnect to Phantom Wallet</p>
+        <ion-button (click)="autologphantom()">Autologin</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Click to disconnect Phantom Wallet</p>
+        <ion-button (click)="disconnectphantom()">Disconnect</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Click to sign Phantom Wallet</p>
+        <ion-button (click)="PhantomSign()">Transactions</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p>Display solana keys</p>
+        <ion-button (click)="solana()">Console</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Solana Transactions</p>
+        <ion-button (click)="Transactionforsolana()">Trans</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

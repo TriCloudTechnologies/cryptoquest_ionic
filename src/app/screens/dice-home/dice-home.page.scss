@@ -1,0 +1,157 @@
+ion-content {
+  background: url("../../../assets/images/background.png");
+  background-size: cover;
+  --background: transparent;
+  padding: 20px;
+}
+
+ion-grid {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.maincontainer-rowcol {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.maincontainer-row1 {
+  height: 25%;
+  width: 100%;
+  padding: 0%;
+}
+
+.back-btn-img {
+  padding: 25px;
+}
+.logo {
+  padding-top: 40px;
+  padding-left: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.searchbar-row1 {
+  height: 10%;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.searchbar-row1-col2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.searchbar-row1-bgcol {
+  padding: 0%;
+  border-radius: 60px;
+}
+
+.ion-input {
+  background: url(../../../assets/images/popupbg.png);
+  padding: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.icons-col {
+  background: url(../../../assets/images/popupbg.png);
+  padding-left: 12px;
+  padding-top: 12px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.search-icon {
+  padding-right: 10px;
+}
+
+.bottom-mainrow {
+  height: 50%;
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.bottom-mainrow-row1 {
+  align-items: center;
+}
+
+.loader-row1 {
+  margin: 100%;
+  height: 200px;
+}
+.loader-row2 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+ion-spinner {
+  text-align: center;
+  color: wheat;
+  height: 100%;
+  width: 100px;
+}
+
+.nft-loop {
+  width: 100%;
+  height: 100%;
+}
+
+.nft-condition {
+  background: url(../../../assets/images/dicebgcard.png);
+  border-radius: 25px;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.nft-condition-row2 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+.nft-img {
+  padding: 1%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.nft-detail {
+  padding: 0%;
+  align-items: center;
+}
+
+.nft-detail-name{
+  justify-content: start;padding-left: 12%;
+}
+
+.nft-detail-name-label{
+  font-size: 16px; color: white;
+}
+
+.nft-detail-race-label{
+  font-size: 14px; color: #808080;
+}
+
+.playbtn-col{
+  padding:0%
+}
+
+.playbtn-img{
+  width: 90%;height: 80%;
+}

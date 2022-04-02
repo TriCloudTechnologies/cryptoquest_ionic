@@ -1,0 +1,41 @@
+ion-content {
+  background: url("../../assets/images/background.png") no-repeat fixed center;
+  background-size: cover;
+  --background: transparent no-repeat fixed center;
+  padding: 20px;
+}
+
+ion-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.header-row {
+  height: 20%;
+}
+
+.body-row {
+  height: 80%;
+  margin-top: 10%;
+}
+
+.body-inner-row-btns {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.body-inner-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.body-inner-row-label {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.label-login {
+  font-size: xx-large;
+  color: white;
+}

@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-grid *ngIf="detailsdata != undefined">
+    <ion-row class="row1">
+      <ion-col class="col1">
+        <ion-row class="col1-row1">
+          <ion-col class="row1">
+            <ion-row size="12">
+              <ion-row size="12">
+                <img #loadingIcon src="{{detailsdata.image}}">
+              </ion-row>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

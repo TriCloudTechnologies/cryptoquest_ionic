@@ -1,0 +1,82 @@
+<ion-content>
+  <ion-grid *ngIf="detailsdata != undefined">
+    <!-- whole-container -->
+    <ion-row class="whole-container">
+      <ion-col class="whole-container-col ">
+
+        <!-- upper container -->
+        <ion-row class="upper-container">
+          <ion-col class="upper-container-col">
+            <ion-row class="upper-container-row1">
+              <ion-col size="3" class="back-btn"> <img (click)="goBack()" src="../../../assets/images/backbtn.png">
+              </ion-col>
+              <ion-col size="6" class="upper-container-row1-col2"></ion-col>
+              <ion-col size="3" class="polygon-btn"></ion-col>
+            </ion-row>
+            <ion-row class="upper-container-row2">
+              <ion-col size="2"></ion-col>
+              <ion-col size="8" class="nft-img"><img style="max-height: 100%;" src="{{detailsdata.image}}">
+              </ion-col>
+              <ion-col size="2"></ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+
+        <!-- lower container -->
+        <ion-row class="lower-container">
+          <ion-col class="lower-container-col">
+            <ion-row>
+              <ion-col size="6" class="details-align"> <label>Character Name</label></ion-col>
+              <ion-col size="6" class="details-label-name">
+                <label>{{detailsdata['collection'].name}}</label>
+              </ion-col>
+            </ion-row>
+            <hr>
+            <ion-row>
+              <ion-col size="6" class="details-align"> <label>Token Id</label></ion-col>
+              <ion-col *ngIf="detailsdata.edition == undefined" size="6" class="details-label">
+                <label>--</label>
+              </ion-col>
+              <ion-col size="6" class="details-label"><label>{{detailsdata.edition}}</label>
+              </ion-col>
+            </ion-row>
+            <hr>
+            <ion-row>
+              <ion-col size="6" class="details-align"> <label>Race</label></ion-col>
+              <ion-col *ngIf="detailsdata['collection'].family == undefined" size="6" class="details-label">
+                <label>--</label>
+              </ion-col>
+              <ion-col size="6" class="details-label">
+                <label>{{detailsdata['collection'].family}}</label>
+              </ion-col>
+            </ion-row>
+            <hr>
+            <ion-row>
+              <ion-col size="6" class="details-align"> <label>Level</label></ion-col>
+              <ion-col *ngIf="detailsdata.level == undefined" size="6" class="details-label">
+                <label>--</label>
+              </ion-col>
+              <ion-col size="6" class="details-label"><label>{{detailsdata.race}}</label>
+              </ion-col>
+            </ion-row>
+            <hr>
+            <ion-row>
+              <ion-col size="6" class="details-align"> <label>Description</label></ion-col>
+
+            </ion-row>
+            <ion-row size="12" class="details-description">
+              <label class="details-description-label">{{detailsdata.description}}</label>
+            </ion-row>
+
+            <ion-row style="padding-top: 15%;">
+              <ion-col size="2"> </ion-col>
+              <ion-col size="8"> <img (click)="presentModal()" src="../../../assets/images/animate.png">
+              </ion-col>
+              <ion-col size="2"></ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

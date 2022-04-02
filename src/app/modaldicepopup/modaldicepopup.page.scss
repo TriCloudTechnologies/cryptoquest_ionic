@@ -1,0 +1,157 @@
+ion-content {
+  background: url("../../assets/images/popupbase.png ");
+  background-size: cover;
+  --background: transparent;
+  padding: 20px;
+}
+
+ion-grid {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.row1-col1 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.row2 {
+  height: 15%;
+  width: 100%;
+  padding: 0%;
+}
+
+.searchbar-row1 {
+  height: 15%;
+  width: 100%;
+  padding: 0%;
+}
+
+.searchbar-row1-col2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 10%;
+  padding-bottom: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.ion-input-col {
+  padding: 0%;
+  border-radius: 60px;
+}
+
+.ion-input {
+  background: url(../../assets/images/background.png);
+  padding: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #fff;
+}
+
+.icons-col {
+  background: url(../../assets/images/background.png);
+  padding-left: 12px;
+  padding-top: 12px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.icon-search {
+  padding-right: 10px;
+  color: #fff;
+}
+
+.icon-funnel {
+  color: #fff;
+}
+
+.nft-row {
+  height: 60%;
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.nft-row1 {
+  align-items: center;
+}
+
+.loader-condition {
+  margin: 100%;
+  height: 200px;
+}
+
+.loader-row {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+.spinner {
+  text-align: center;
+  color: black;
+  height: 100%;
+  width: 100px;
+}
+
+.nft-loop {
+  width: 100%;
+  height: 100%;
+}
+.nft-condition {
+  background: url(../../assets/images/dicebgcard.png);
+  border-radius: 25px;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.nft-condition1 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+.ion-img {
+  padding: 1%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.nft-details {
+  padding: 0%;
+  align-items: center;
+}
+
+.label-row {
+  justify-content: start;
+  padding-left: 12%;
+}
+
+.ion-label {
+  font-size: 16px;
+  color: white;
+}
+
+.nft-details-race {
+  justify-content: start;
+  padding-left: 12%;
+}
+
+.nft-details-race-label {
+  font-size: 14px;
+  color: #808080;
+}
+
+.playbtn {
+  width: 90%;
+  height: 80%;
+}

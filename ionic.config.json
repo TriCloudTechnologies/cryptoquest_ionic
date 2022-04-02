@@ -1,0 +1,7 @@
+{
+  "name": "cryptoxquest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

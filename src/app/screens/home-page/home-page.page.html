@@ -1,0 +1,30 @@
+<ion-content>
+  <ion-row>
+    <ion-col size="2"></ion-col>
+    <ion-col size="8" class="heading">
+      <h1 class="welcome-head">Welcome Back !</h1>
+    </ion-col>
+    <ion-col size="2"></ion-col>
+  </ion-row>
+
+  <ion-row class="btn-1">
+    <ion-col size="1"></ion-col>
+    <ion-col size="10" class="btn-align">
+      <ion-button class="btn-design" *ngIf="phantomConnected==true" (click)="goToCharacterHome()">
+        Character Selection
+      </ion-button>
+    </ion-col>
+    <ion-col size="1"></ion-col>
+  </ion-row>
+
+  <ion-row class="btn-2">
+    <ion-col size="1"></ion-col>
+    <ion-col size="10" class="btn-align">
+      <ion-button *ngIf="waxConnected==true" (click)="goToDiceHome()" class="btn-design">
+        Roll the Dice
+      </ion-button>
+    </ion-col>
+    <ion-col size="1"></ion-col>
+  </ion-row>
+
+</ion-content>
